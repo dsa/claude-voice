@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		414355302BAF62130062FE29 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143552F2BAF62130062FE29 /* ColorExtension.swift */; };
+		4143553D2BAFB8CE0062FE29 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4143553C2BAFB8CE0062FE29 /* Alamofire */; };
+		4143553F2BAFB8CE0062FE29 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4143553E2BAFB8CE0062FE29 /* AlamofireDynamic */; };
+		414355412BAFB8F70062FE29 /* LiveKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414355402BAFB8F70062FE29 /* LiveKitManager.swift */; };
+		414355442BAFB9190062FE29 /* LiveKit in Frameworks */ = {isa = PBXBuildFile; productRef = 414355432BAFB9190062FE29 /* LiveKit */; };
+		414355462BAFBA940062FE29 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414355452BAFBA940062FE29 /* TokenResponse.swift */; };
+		414355482BAFBAB40062FE29 /* AgentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414355472BAFBAB40062FE29 /* AgentResponse.swift */; };
+		4143554A2BAFBDAF0062FE29 /* TiemposHeadline-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 414355492BAFBDAF0062FE29 /* TiemposHeadline-Light.otf */; };
+		4143554D2BB08F030062FE29 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143554C2BB08F030062FE29 /* NotificationExtension.swift */; };
+		414355502BB0FD760062FE29 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 4143554F2BB0FD760062FE29 /* RiveRuntime */; };
+		414355522BB0FDCB0062FE29 /* avatar.riv in Resources */ = {isa = PBXBuildFile; fileRef = 414355512BB0FDCB0062FE29 /* avatar.riv */; };
+		414B00862BB1E593006CED3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414B00852BB1E593006CED3A /* Assets.xcassets */; };
+		41D57D5B2BAF536D00D884AF /* ClaudeVoiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D57D5A2BAF536D00D884AF /* ClaudeVoiceApp.swift */; };
+		41D57D5D2BAF536D00D884AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D57D5C2BAF536D00D884AF /* ContentView.swift */; };
+		41D57D622BAF536E00D884AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D57D612BAF536E00D884AF /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4143552F2BAF62130062FE29 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		414355402BAFB8F70062FE29 /* LiveKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveKitManager.swift; sourceTree = "<group>"; };
+		414355452BAFBA940062FE29 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		414355472BAFBAB40062FE29 /* AgentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentResponse.swift; sourceTree = "<group>"; };
+		414355492BAFBDAF0062FE29 /* TiemposHeadline-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Light.otf"; sourceTree = "<group>"; };
+		4143554B2BAFBE3F0062FE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4143554C2BB08F030062FE29 /* NotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
+		414355512BB0FDCB0062FE29 /* avatar.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = avatar.riv; sourceTree = "<group>"; };
+		414B00852BB1E593006CED3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41D57D572BAF536D00D884AF /* ClaudeVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClaudeVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D57D5A2BAF536D00D884AF /* ClaudeVoiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeVoiceApp.swift; sourceTree = "<group>"; };
+		41D57D5C2BAF536D00D884AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41D57D612BAF536E00D884AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41D57D542BAF536D00D884AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414355442BAFB9190062FE29 /* LiveKit in Frameworks */,
+				414355502BB0FD760062FE29 /* RiveRuntime in Frameworks */,
+				4143553D2BAFB8CE0062FE29 /* Alamofire in Frameworks */,
+				4143553F2BAFB8CE0062FE29 /* AlamofireDynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41D57D4E2BAF536D00D884AF = {
+			isa = PBXGroup;
+			children = (
+				41D57D592BAF536D00D884AF /* ClaudeVoice */,
+				41D57D582BAF536D00D884AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41D57D582BAF536D00D884AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41D57D572BAF536D00D884AF /* ClaudeVoice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41D57D592BAF536D00D884AF /* ClaudeVoice */ = {
+			isa = PBXGroup;
+			children = (
+				414B00852BB1E593006CED3A /* Assets.xcassets */,
+				414355512BB0FDCB0062FE29 /* avatar.riv */,
+				4143554B2BAFBE3F0062FE29 /* Info.plist */,
+				4143554C2BB08F030062FE29 /* NotificationExtension.swift */,
+				414355472BAFBAB40062FE29 /* AgentResponse.swift */,
+				414355452BAFBA940062FE29 /* TokenResponse.swift */,
+				414355402BAFB8F70062FE29 /* LiveKitManager.swift */,
+				4143552F2BAF62130062FE29 /* ColorExtension.swift */,
+				41D57D5A2BAF536D00D884AF /* ClaudeVoiceApp.swift */,
+				41D57D5C2BAF536D00D884AF /* ContentView.swift */,
+				414355492BAFBDAF0062FE29 /* TiemposHeadline-Light.otf */,
+				41D57D602BAF536E00D884AF /* Preview Content */,
+			);
+			path = ClaudeVoice;
+			sourceTree = "<group>";
+		};
+		41D57D602BAF536E00D884AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41D57D612BAF536E00D884AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41D57D562BAF536D00D884AF /* ClaudeVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D57D652BAF536E00D884AF /* Build configuration list for PBXNativeTarget "ClaudeVoice" */;
+			buildPhases = (
+				41D57D532BAF536D00D884AF /* Sources */,
+				41D57D542BAF536D00D884AF /* Frameworks */,
+				41D57D552BAF536D00D884AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClaudeVoice;
+			packageProductDependencies = (
+				4143553C2BAFB8CE0062FE29 /* Alamofire */,
+				4143553E2BAFB8CE0062FE29 /* AlamofireDynamic */,
+				414355432BAFB9190062FE29 /* LiveKit */,
+				4143554F2BB0FD760062FE29 /* RiveRuntime */,
+			);
+			productName = ClaudeVoice;
+			productReference = 41D57D572BAF536D00D884AF /* ClaudeVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41D57D4F2BAF536D00D884AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					41D57D562BAF536D00D884AF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 41D57D522BAF536D00D884AF /* Build configuration list for PBXProject "ClaudeVoice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41D57D4E2BAF536D00D884AF;
+			packageReferences = (
+				4143553B2BAFB8CE0062FE29 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				414355422BAFB9190062FE29 /* XCRemoteSwiftPackageReference "client-sdk-swift" */,
+				4143554E2BB0FD760062FE29 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
+			productRefGroup = 41D57D582BAF536D00D884AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41D57D562BAF536D00D884AF /* ClaudeVoice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41D57D552BAF536D00D884AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414355522BB0FDCB0062FE29 /* avatar.riv in Resources */,
+				41D57D622BAF536E00D884AF /* Preview Assets.xcassets in Resources */,
+				414B00862BB1E593006CED3A /* Assets.xcassets in Resources */,
+				4143554A2BAFBDAF0062FE29 /* TiemposHeadline-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41D57D532BAF536D00D884AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414355302BAF62130062FE29 /* ColorExtension.swift in Sources */,
+				41D57D5D2BAF536D00D884AF /* ContentView.swift in Sources */,
+				414355412BAFB8F70062FE29 /* LiveKitManager.swift in Sources */,
+				41D57D5B2BAF536D00D884AF /* ClaudeVoiceApp.swift in Sources */,
+				414355482BAFBAB40062FE29 /* AgentResponse.swift in Sources */,
+				414355462BAFBA940062FE29 /* TokenResponse.swift in Sources */,
+				4143554D2BB08F030062FE29 /* NotificationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41D57D632BAF536E00D884AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41D57D642BAF536E00D884AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41D57D662BAF536E00D884AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClaudeVoice/Preview Content\"";
+				DEVELOPMENT_TEAM = 76TVFCUKK7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClaudeVoice/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.livekit.ClaudeVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41D57D672BAF536E00D884AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClaudeVoice/Preview Content\"";
+				DEVELOPMENT_TEAM = 76TVFCUKK7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClaudeVoice/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.livekit.ClaudeVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41D57D522BAF536D00D884AF /* Build configuration list for PBXProject "ClaudeVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D57D632BAF536E00D884AF /* Debug */,
+				41D57D642BAF536E00D884AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D57D652BAF536E00D884AF /* Build configuration list for PBXNativeTarget "ClaudeVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D57D662BAF536E00D884AF /* Debug */,
+				41D57D672BAF536E00D884AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4143553B2BAFB8CE0062FE29 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+		414355422BAFB9190062FE29 /* XCRemoteSwiftPackageReference "client-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/livekit/client-sdk-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4143554E2BB0FD760062FE29 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4143553C2BAFB8CE0062FE29 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4143553B2BAFB8CE0062FE29 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4143553E2BAFB8CE0062FE29 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4143553B2BAFB8CE0062FE29 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		414355432BAFB9190062FE29 /* LiveKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 414355422BAFB9190062FE29 /* XCRemoteSwiftPackageReference "client-sdk-swift" */;
+			productName = LiveKit;
+		};
+		4143554F2BB0FD760062FE29 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4143554E2BB0FD760062FE29 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 41D57D4F2BAF536D00D884AF /* Project object */;
+}
